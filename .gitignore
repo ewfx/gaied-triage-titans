@@ -172,3 +172,9 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+code/src/backend/emails
+code/src/backend/email_classification_results.json
+.DS_Store
+code/.DS_Store
+code/src/.DS_Store
