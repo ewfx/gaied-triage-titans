@@ -1,0 +1,6 @@
+flask
+pdfplumber
+pytesseract
+transformers
+torch
+scikit-learn
