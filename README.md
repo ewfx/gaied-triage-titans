@@ -21,40 +21,68 @@ A brief overview of your project and its purpose. Mention which problem statemen
 📹 [Video Demo](#) (if applicable)  
 🖼️ Screenshots:
 
-![Screenshot 1](link-to-image)
+![App](/images/image.png)
 
 ## 💡 Inspiration
-What inspired you to create this project? Describe the problem you're solving.
+We're solving email classification and routing to respective teams responsible for handling the requests.
 
 ## ⚙️ What It Does
-Explain the key features and functionalities of your project.
+This project fetches emails from a directory, where it is downloaded, reads through it and classifies it into its primary request type.
 
 ## 🛠️ How We Built It
-Briefly outline the technologies, frameworks, and tools used in development.
+We have used a pre-trained LLM - FLAN-T5, an enhanced version of T5 to handle the prompts to classify the emails.
 
 ## 🚧 Challenges We Faced
-Describe the major technical or non-technical challenges your team encountered.
+Data gathering.
 
 ## 🏃 How to Run
 1. Clone the repository  
    ```sh
    git clone https://github.com/your-repo.git
    ```
-2. Install dependencies  
-   ```sh
-   npm install  # or pip install -r requirements.txt (for Python)
-   ```
-3. Run the project  
-   ```sh
-   npm start  # or python app.py
-   ```
+2. To setup the backend
+   1. Create a python virtual environment(macOS)
+      ```sh
+      python3 -m venv venv
+      ```
+   2. Activate the virtual environment(macOS)
+      ```sh
+      source ./venv/bin/activate
+      ```
+   3. cd into backend directory
+      ```sh
+      cd code/src/backend
+      ```
+   4. create a `emails` folder and download the emails into it
+   5. install the required packages
+      ```sh
+      pip install -r requirements.txt
+      ```
+   6. run the flask app server
+      ```sh
+      python3 app.py
+      ```
+3. To setup the frontend
+   1. cd into frontend directory
+      ```sh
+      cd code/src/frontend
+      ```
+   2. install the required packages
+      ```sh
+      npm install
+      ```
+   3. start the app
+      ```
+      npm start
+      ```
 
 ## 🏗️ Tech Stack
-- 🔹 Frontend: React / Vue / Angular
-- 🔹 Backend: Node.js / FastAPI / Django
-- 🔹 Database: PostgreSQL / Firebase
-- 🔹 Other: OpenAI API / Twilio / Stripe
+- 🔹 Frontend: React
+- 🔹 Backend: Flask
 
-## 👥 Team
-- **Your Name** - [GitHub](#) | [LinkedIn](#)
-- **Teammate 2** - [GitHub](#) | [LinkedIn](#)
+## 👥 TriageTitans
+- **Prabhakar Das**
+- **Gyanendra Kumar**
+- **Ankur Jain**
+- **Abhishek Paul**
+- **Sunil Ashwathanarayana**
