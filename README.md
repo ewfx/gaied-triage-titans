@@ -18,7 +18,9 @@ A brief overview of your project and its purpose. Mention which problem statemen
 
 ## 🎥 Demo
 🔗 [Presentation]('EmailClassification.pptx')
-📹 [Video Demo]('Screen Recording 2025-03-26 at 5.44.07 PM.mov')
+
+📹 [Video Demo]('Screen_recording_demo.mov')
+
 🖼️ Screenshots:
 
 ![App](/images/image.png)
